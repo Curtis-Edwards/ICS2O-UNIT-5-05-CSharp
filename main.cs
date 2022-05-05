@@ -24,7 +24,7 @@ class Program
 
         if (sidea <= 0 || sideb <= 0 || sidec <= 0 )
         {
-            Console.Write("Somthing went wrong...");
+            Console.Write("Something went wrong...");
         }
         else
         {
@@ -42,7 +42,7 @@ class Program
         }
         else
         {
-            Console.Write("Somthing went wrong...");
+            Console.Write("Something went wrong...");
         }
 
         Console.WriteLine("\nDone.");
