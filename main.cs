@@ -22,6 +22,12 @@ class Program
         sidec = Convert.ToInt32(Console.ReadLine());
         Console.Write("");
 
+        if (sidea <= 0 || sideb <= 0 || sidec <= 0 )
+        {
+            Console.Write("Somthing went wrong...");
+        }
+        else
+        {
         if (sidea == sideb && sideb == sidec && sidec == sidea)
         {
             Console.Write("Your triangle is an equilateral.");
@@ -40,5 +46,6 @@ class Program
         }
 
         Console.WriteLine("\nDone.");
+        }
     }
 }
