@@ -22,23 +22,22 @@ class Program
         sidec = Convert.ToInt32(Console.ReadLine());
         Console.Write("");
 
-        if (sidea == sideb && sideb == sidec && sidec == sidea) 
+        if (sidea == sideb && sideb == sidec && sidec == sidea)
         {
             Console.Write("Your triangle is an equilateral.");
-        } 
-        else if (sidea == sideb || sideb == sidec || sidec == sidea) 
+        }
+        else if (sidea == sideb || sideb == sidec || sidec == sidea)
         {
             Console.Write("Your triangle is an isosceles.");
         } 
-        else if (sidea != sideb && sideb != sidec && sidec != sidea) 
+        else if (sidea != sideb && sideb != sidec && sidec != sidea)
         {
             Console.Write("Your triangle is an scalene.");
         } 
-        else   
+        else
         {
             Console.Write("Somthing went wrong...");
         }
- 
 
         Console.WriteLine("\nDone.");
     }
