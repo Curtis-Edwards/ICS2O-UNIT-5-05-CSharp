@@ -29,11 +29,11 @@ class Program
         else if (sidea == sideb || sideb == sidec || sidec == sidea)
         {
             Console.Write("Your triangle is an isosceles.");
-        } 
+        }
         else if (sidea != sideb && sideb != sidec && sidec != sidea)
         {
             Console.Write("Your triangle is an scalene.");
-        } 
+        }
         else
         {
             Console.Write("Somthing went wrong...");
